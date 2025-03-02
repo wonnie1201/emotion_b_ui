@@ -96,6 +96,13 @@
   margin: 0;
 }
 
+.emotionCategory {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff8f8;
+  border-radius: 12px;
+}
+
 .previewBox {
   position: relative;
   margin-top: 20px;
@@ -164,13 +171,6 @@
   color: #c06c84;
   margin-bottom: 1.5rem;
   font-weight: 600;
-}
-
-.emotionCategory {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: #fff8f8;
-  border-radius: 12px;
 }
 
 .emotionCategory h3 {
@@ -389,4 +389,8 @@
   color: white;
   border-color: #f67280;
   box-shadow: 0 2px 8px rgba(255, 135, 135, 0.2);
+}
+
+.dropHint {
+  display: none;
 } 

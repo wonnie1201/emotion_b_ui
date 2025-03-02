@@ -306,7 +306,7 @@ export default function Home() {
               id="fileInput"
               type="file"
               accept="image/*"
-              onChange={handleImageUpload}
+              onChange={handleFileInput}
               style={{ display: 'none' }}
             />
           </div>
